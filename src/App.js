@@ -19,7 +19,7 @@ const App = () => {
 
   const addItems = () => {
       
-    if(todoList=="")
+    if(todoList==="")
     return;
 
     setItemsList( (oldItems) => {
